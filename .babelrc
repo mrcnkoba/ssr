@@ -1,0 +1,11 @@
+{
+    "presets": ["es2015-loose", "react", "stage-0"],
+    "plugins": [
+        "transform-class-display-name",
+        "add-module-exports",
+        ["transform-runtime", {
+            "polyfill": false,
+            "regenerator": true
+        }]
+    ]
+}
